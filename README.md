@@ -59,7 +59,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.sminabs;
+})();
 })();
 </script>
 ```
@@ -175,6 +177,7 @@ var v = sminabs.ndarray( N, x, 2, 1 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-sminabs@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var x;
 var i;
@@ -188,6 +191,7 @@ console.log( x );
 var v = sminabs( x.length, x, 1 );
 console.log( v );
 
+})();
 })();
 </script>
 </body>
@@ -285,21 +289,21 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/stats-base-sminabs/main/LICENSE
 
-[@stdlib/array/float32]: https://github.com/stdlib-js/array-float32/tree/umd
+[@stdlib/array/float32]: https://github.com/stdlib-js/array-float32/tree/umd/tree/umd
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
 <!-- <related-links> -->
 
-[@stdlib/stats/base/dminabs]: https://github.com/stdlib-js/stats-base-dminabs/tree/umd
+[@stdlib/stats/base/dminabs]: https://github.com/stdlib-js/stats-base-dminabs/tree/umd/tree/umd
 
-[@stdlib/stats/base/minabs]: https://github.com/stdlib-js/stats-base-minabs/tree/umd
+[@stdlib/stats/base/minabs]: https://github.com/stdlib-js/stats-base-minabs/tree/umd/tree/umd
 
-[@stdlib/stats/base/smaxabs]: https://github.com/stdlib-js/stats-base-smaxabs/tree/umd
+[@stdlib/stats/base/smaxabs]: https://github.com/stdlib-js/stats-base-smaxabs/tree/umd/tree/umd
 
-[@stdlib/stats/base/smin]: https://github.com/stdlib-js/stats-base-smin/tree/umd
+[@stdlib/stats/base/smin]: https://github.com/stdlib-js/stats-base-smin/tree/umd/tree/umd
 
-[@stdlib/stats/base/snanminabs]: https://github.com/stdlib-js/stats-base-snanminabs/tree/umd
+[@stdlib/stats/base/snanminabs]: https://github.com/stdlib-js/stats-base-snanminabs/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
